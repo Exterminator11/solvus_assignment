@@ -24,3 +24,11 @@ Mediscribe is an advanced audio transcription and summarization tool designed to
 
 ## Conclusion  
 Mediscribe combines cutting-edge technology with user-friendly features to deliver a powerful solution for transcribing and summarizing audio content. Whether you need quick summaries for fast insights or detailed analyses for deeper understanding, Mediscribe is equipped to meet your needs efficiently and effectively.
+
+
+## Demo
+
+
+## Audio File in the video
+
+[test_audio.webm](https://github.com/user-attachments/assets/2069c0b2-9a7f-4f38-b842-cce63b4d0639)
