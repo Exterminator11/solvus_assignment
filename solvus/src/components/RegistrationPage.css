@@ -1,0 +1,118 @@
+/* Base Styles */
+.registration-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #1a202c;
+  color: white;
+}
+
+.header {
+  background-color: #2d3748;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #63b3ed;
+}
+
+.main-content {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.registration-card {
+  background-color: #2d3748;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 24rem;
+}
+
+.registration-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-group input {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid #4a5568;
+  background-color: #4a5568;
+  color: white;
+}
+
+.register-button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #3182ce;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: #2c5282;
+}
+
+.back-to-login-button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #63b3ed;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.back-to-login-button:hover {
+  background-color: #4299e1;
+}
+
+.error-message {
+  color: #f56565;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.register-button,
+.back-to-login-button {
+  padding: 0.5rem 1rem; /* Consistent padding */
+  border-radius: 0.25rem;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #3182ce;
+  color: white;
+  transition: background-color 0.3s ease;
+  width: 100%; /* Make buttons take full width of the container */
+  max-width: 100%; /* Ensure they stay within the container */
+  text-align: center; /* Center text within the buttons */
+}

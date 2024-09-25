@@ -75,9 +75,9 @@ class SpeechToText():
         conversation=""
         while speaker1_transcription_1 or speaker2_transcription_2:
             if speaker1_transcription_1:
-                conversation +="Speaker 1:" + speaker1_transcription_1.pop(0) + "\n"
+                conversation +="Doctor:" + speaker1_transcription_1.pop(0) + "\n"
             if speaker2_transcription_2:
-                conversation +="Speaker 2:" + speaker2_transcription_2.pop(0) + "\n"
+                conversation +="Patient:" + speaker2_transcription_2.pop(0) + "\n"
         return conversation
 
     def generate(self,voice_data):

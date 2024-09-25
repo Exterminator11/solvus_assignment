@@ -1,0 +1,156 @@
+/* Base Styles */
+.home-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #1a202c;
+  color: white;
+}
+
+.header {
+  background-color: #2d3748;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #63b3ed;
+}
+
+.logout-button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  background-color: #3182ce;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #2c5282;
+}
+
+.main-content {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.container {
+  background-color: #2d3748;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+.record-upload-section, .transcription-section {
+  text-align: center;
+}
+
+.record-button {
+  padding: 0.5rem 2rem;
+  border-radius: 0.25rem;
+  background-color: #3182ce;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.record-button:hover {
+  background-color: #2c5282;
+}
+
+.record-button.recording {
+  background-color: #e53e3e; /* Red color for recording state */
+  animation: pulse 1s infinite; /* Animation for recording */
+}
+
+.upload-input {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: none;
+  background-color: #4a5568; /* Match background */
+  color: white;
+}
+
+.upload-input::file-selector-button {
+  background-color: #4a5568; /* Match background */
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  color: white;
+}
+
+.transcribe-button {
+  padding: 0.5rem 2rem;
+  border-radius: 0.25rem;
+  background-color: #3182ce;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.transcribe-button:hover {
+  background-color: #2c5282;
+}
+
+.transcribe-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.form-check {
+  margin-bottom: 0.75rem;
+}
+
+/* Other styles remain unchanged */
+
+/* Transcription Text Box Styles */
+.transcription-box {
+  width: 100%;
+  background-color: #1a202c; /* Match background color */
+  border: 1px solid #4a5568;
+  color: white; /* Text color */
+  resize: none; /* Prevent manual resizing */
+  overflow-y: auto; /* Enable scrolling */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  padding: 0.5rem; /* Add padding for better appearance */
+}
+
+/* Focus style to keep background color consistent */
+.transcription-box:focus {
+  outline: none; /* Remove the default outline */
+  background-color: #1a202c; /* Keep the same background color */
+  border: 1px solid #63b3ed; /* Optional: change border color on focus */
+}
+
+/* Cursor style to ensure visibility */
+.transcription-box {
+  caret-color: #63b3ed; /* Change the caret color to match your theme */
+}
+
+
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

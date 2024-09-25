@@ -27,7 +27,7 @@ class Summarizer():
             return self.pipeline(conversation)[0]["summary_text"]
         else:
             prompt = f"""
-            You are a transcriber and need to summarise a conversation between a doctor and a patient.
+            You are a transcriber and need to summarise a conversation between a doctor and a patient.Only give the summary and nothing else
             {conversation} 
             """
 
