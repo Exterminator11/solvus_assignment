@@ -10,7 +10,7 @@ Mediscribe is an advanced audio transcription and summarization tool designed to
    Mediscribe utilizes the Whisper small model for transcription, enabling high accuracy and reliability in converting spoken language into text. This model is designed to handle diverse accents and dialects, ensuring comprehensive coverage of spoken content.
 
 2. **Speech Diarization**:  
-   To enhance the clarity and organization of transcriptions, Mediscribe implements speech diarization. This feature isolates different speakers in the audio, allowing users to identify who said what in the conversation. This is particularly useful for meetings, interviews, and multi-speaker environments.
+   To enhance the clarity and organization of transcriptions, Mediscribe implements speech diarization. This feature isolates different speakers in the audio, allowing users to identify who said what in the conversation. This is particularly useful for multi-speaker environments.
 
 ### Summarization
 1. **Fast Summarization with BART-CNN**:  
